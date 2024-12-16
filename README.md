@@ -4,7 +4,7 @@
 
 ### Exercise 1
 
-Reinitialized existing Git repository in C:/Users/HP/git-exercises/.git/
+''' Reinitialized existing Git repository in C:/Users/HP/git-exercises/.git/
 PS C:\Users\HP\git-exercises> git status
 On branch master
 
@@ -109,3 +109,4 @@ Deleted branch test (was 9b0bab8).
 PS C:\Users\HP\git-exercises> git push origin  --delete test
 To https://github.com/Larissanoella-05/Gym-Git-Exercise-Solutions.git
  - [deleted]         test
+ '''
