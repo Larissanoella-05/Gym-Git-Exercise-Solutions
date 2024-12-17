@@ -7,54 +7,6 @@
 ```bash
 PS C:\Users\HP\git-exercises> history | Select-String git
 
-git checkout dev
-git status
-git add home.html
-git status
-git stash
-git stash list
-git status
-git add about.html
-git stash
-git stash list
-git stash
-git status
-git add team.html
-git stash
-git stash list
-git stash pop
-git status
-git add team.html
-git stash
-git stash list
-git stash pop stash@{1}:
-git stash pop stash@{1}
-git stash pop stash@{1}:
-git log
-git log --oneline
-git stash list
-git stash pop stash@{1}
-git status
-git stash list
-git stash pop stash@{2}
-git stash pop "stash@{2}"
-git status
-git stash
-git stash list
-git stash pop "stash@{2}"
-git stash pop "stash@{0}"
-git add --all
-git status
-git commit -m"Stashing and unstashing home and about files"
-git status
-git stash list
-git stash pop "stash@{0}"
-git status
-git reset --hard
-git status
-git reflog
-history | grep git
-history | Select-String git
 git pull
 git push origin delete README.md
 git commit -m "Delete README.md"
