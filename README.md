@@ -127,3 +127,105 @@ git reflog
 history | grep git
 
 ```
+## BUNDLE 2
+
+### EXERCISE 1 AND 2
+
+```bash
+
+
+git add --all
+git commit -m"updated readme"
+git push
+git add --all
+git commit -m"updated readme"
+git push
+git status
+git checkout -b ft/bundle-2
+git status
+git status
+git add -m "created service file"
+git add service.html
+git commit  -m "created service file"
+git status
+git push
+git push --set-upstream origin ft/bundle-2
+git status
+git checkout master
+git pul
+git pull
+git status
+git checkout -b ft/servise-redesign
+git status
+git add -all
+git add --all
+git commit -m"service list"
+git push
+git push --set-upstream origin ft/servise-redesign
+git add --all
+git commit -m"updated README.md file"
+git push
+git checkout master
+git pull
+git add -all
+git add --all
+git commit -m"updated README.md file"
+git push
+git status
+git pull
+git status
+git add -all
+git add --all
+git commit -m" changes in the service"
+git push
+git checkout ft/servise-redesign
+git merge master
+git status
+git checkout master
+git checkout ft/servise-redesign
+git merge master
+git add .
+git commit -m"Changed file"
+git push
+git checkout master
+git add .
+git commit -m"changed files"
+git push
+git checkout ft/servise-redesign
+git merge master
+git checkout master
+git .
+git add .
+git commit -m"changed files"
+git push
+git checkout master
+git checkout ft/servise-redesign
+git add .
+git commit -m"changed files"
+git push
+git merge master
+git merge master
+git diff service.html
+git checkout master
+git status
+git add .
+git commit -m"delete file"
+git push
+git checkout ft/servise-redesign
+git add .
+git commit -m"delete file"
+git push
+git status
+git checkout ft/bundle-2
+git pull
+git status
+git add --all
+git status
+git status
+git commit -m"changed service file"
+git push
+git checkout master
+git add .
+git commit -m"updated service"
+git push
+```
