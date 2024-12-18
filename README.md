@@ -407,6 +407,7 @@ git push --set-upstream origin ft/home-page-redesign
 ### EXERCISE 1 AND 2
 
 ```bash
+
 PS C:\Users\HP\git-exercises> history | Select-String git
 
 git add --all
