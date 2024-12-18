@@ -4,6 +4,8 @@
 
 ### EXERCISE 1
 
+```bash
+
 PS C:\Users\HP\git-exercises> history | Select-String git
 
 git pull
@@ -70,7 +72,10 @@ git push origin main --force
 git push origin dev --force
 history | grep git
 
+```
+
 ### EXERCISE 2
+```bash
 
 PS C:\Users\HP\git-exercises> history | Select-String git
 
@@ -120,3 +125,5 @@ git reset --hard
 git status
 git reflog
 history | grep git
+
+```
