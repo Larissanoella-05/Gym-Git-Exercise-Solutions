@@ -402,9 +402,10 @@ git push
 git push --set-upstream origin ft/home-page-redesign
 
 ```
-## BUNDLE 4
+## BUNDLE 4 
 
 ### EXERCISE 1 AND 2
+
 ```bash
 
 PS C:\Users\HP\git-exercises> history | Select-String git
