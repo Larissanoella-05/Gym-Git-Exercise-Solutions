@@ -8,7 +8,7 @@
 
 PS C:\Users\HP\git-exercises> history | Select-String git
 
-git pull
+git pulll
 git push origin delete README.md
 git commit -m "Delete README.md"
 git add --all
